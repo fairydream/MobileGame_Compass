@@ -77,13 +77,18 @@ tsundere slime and megane slime
 
 
 ## MVP Milestones
-### Week 1 (3/17 - 3/23/2015) _finishing the playable build_
-* Secure basic art assets
-  * Scoring code and panel
+### Week 1 (3/17 - 3/23/2015) _Found more assets_
+* Planned task:  
+	* Secure basic art assets
+  	* Scoring code and panel    
+* Completed task:
+	* Found some audio to use and figured out how to insert and change audio
 
 ### Week 2 (3/24 - 3/30/2015) - _finishing a better playable build_
-* Implement more levels
-* Write some episodes
+* Planned task
+	* Get an expression pack
+	* Get some slime animations that are editable (color swap?)
+	* Put the slime in 
 
 ### Week 3 (3/31 - 4/6/2014)
 * Add episode 1 to the core game
