@@ -18,7 +18,7 @@
 
 - (void) didLoadFromCCB
 {
-    UISwipeGestureRecognizer *swipeGestureRecognizerRight;
+  /*  UISwipeGestureRecognizer *swipeGestureRecognizerRight;
     swipeGestureRecognizerRight = [[UISwipeGestureRecognizer alloc] initWithTarget: self action : @selector(checkSwipe :)];
     swipeGestureRecognizerRight.direction = UISwipeGestureRecognizerDirectionRight;
     
@@ -37,10 +37,10 @@
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerRight];
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerLeft];
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerUp];
-    [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerDown];
+    [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerDown];*/
 }
 
-- (void)onEnter
+/*- (void)onEnter
 {
     [super onEnter];
     
