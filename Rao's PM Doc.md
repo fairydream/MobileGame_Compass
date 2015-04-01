@@ -68,6 +68,11 @@ tsundere slime and megane slime
 * Art Assets 
 	* [GameArtForge](http://opengameart.org/users/gameartforge)
 	* [Kenny](http://kenney.nl/)
+	* [素材提供→【Rド】](http://www.geocities.co.jp/Milano-Cat/3319/muz/002.html)
+	* [Epic Runes](http://facebook.com/epicrunes)
+	* http://seesaawiki.jp/w/kusaikatana/
+	* http://etolier.webcrow.jp/material/xpchara.html
+	
 * Audio Assets
 	* TAM Music Factory
 
@@ -89,16 +94,25 @@ tsundere slime and megane slime
 	* Get an expression pack
 	* Get some slime animations that are editable (color swap?)
 	* Put the slime in 
+* Completed task:
+	* Fixed a bug with orb swapping visuals
+	* Found expression (text)
+	* Found slime graphics (with animation from etolier)
+	
 
 ### Week 3 (3/31 - 4/6/2014)
 * Add episode 1 to the core game
+	* Implement scoring
+	* Score multipliers
+	* Add in the slime graphic
 
 ### Week 4 (4/7 - 4/13/2014) - _finishing core gameplay_
-* add more episodes
+* add score (and multiplier) animatinos
+* add expression change as response to movement
 
 ### Week 5 (4/14 - 4/20/2014)
-* Refine levels and episodes 
-* More playtests
+* Fix images and finalize them 
+* Add "advanced orb matching tutorial"
 
 ### Week 6 (4/21 - 4/27/2014) - _finishing the polish_
 * Polish game
