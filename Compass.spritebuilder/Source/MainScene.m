@@ -137,6 +137,8 @@
 {
     NSLog(@"Retry");
     [self randomSet];
+    _score = 0;
+    _scoreLabel.string = [NSString stringWithFormat:@"%d", _score];
     _retryButton.visible = false;
 }
 
