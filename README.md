@@ -10,13 +10,19 @@ For Mobile Game Development Class
 * Vice versa
 
 ### Gameplay Mechanics
+
+
+
+
+### Level Design
+
+
+## Technical
+### Scenes
+
 ### Controls/Input
 
 ### Classes/CCBs
-MainScene
-WhiteCompass
-BlackCompass
-Arrow
 
 ## Credits
 * Art Assets 
@@ -42,13 +48,9 @@ Arrow
 * Plan:
     * Implement level design
     * Add the background image, add scenario for the game (someone lost his way)
-* Completed
-    * Add scoreboard
 
 ### Week 3 (3/31 - 4/6/2014)
-* Plan
-    * Add time limit
-    * Fix direction bug
+* Fix game level bugs
 
 
 ### Week 4 (4/7 - 4/13/2014) - _finishing core gameplay_
