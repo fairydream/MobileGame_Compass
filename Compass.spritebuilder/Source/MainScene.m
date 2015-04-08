@@ -1,22 +1,25 @@
 #import "MainScene.h"
 #import "WhiteCompass.h"
 #import "Arrow.h"
+#import "TimeCircle.h"
 
 @implementation MainScene{
     WhiteCompass *_whiteCompass;
     Arrow * _arrow;
+    TimeCircle *_timecircle;
     CCButton * _retryButton;
     int _arrowType;
     int _arrowRotation;
     int _whiteCompassRotation;
     int _score;
     CCLabelTTF * _scoreLabel;
+    CCAnimationManager* animationManager;
 }
 
 - (void) didLoadFromCCB
 {
     _retryButton.visible = false;
-    [_retryButton setTarget:self selector: @selector(retry)];
+    [_retryButton setTarget:self selector: @selector(start)];
     
     [self randomSet];
     
@@ -40,6 +43,8 @@
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerLeft];
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerUp];
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerDown];
+    
+    animationManager = self.animationManager;
     
     _score = 0;
 }
@@ -102,6 +107,7 @@
         _retryButton.visible = true;
     }
     [self randomSet];
+    [animationManager runAnimationsForSequenceNamed:@"TimeCircleTimeline"];
 }
 
 
@@ -133,11 +139,19 @@
     }
 }
 
-- (void)retry
+- (void)start
 {
-    NSLog(@"Retry");
+  //  NSLog(@"Retry");
     [self randomSet];
+    _score = 0;
+    _scoreLabel.string = [NSString stringWithFormat:@"%d", _score];
     _retryButton.visible = false;
+    
+    // the animation manager of each node is stored in the 'animationManager' property
+    [animationManager runAnimationsForSequenceNamed:@"TimeCircleTimeline"];
+    
 }
+
+
 
 @end

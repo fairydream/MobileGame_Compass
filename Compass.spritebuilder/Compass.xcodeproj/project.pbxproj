@@ -95,6 +95,7 @@
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
 		CF5B59921AA3D81D003B45EE /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5B59911AA3D81D003B45EE /* Arrow.m */; };
+		CF974AB41AD481240091B6A3 /* TimeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF974AB31AD481240091B6A3 /* TimeCircle.m */; };
 		CFB353BF1AA3A757006FDE0F /* WhiteCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */; };
 /* End PBXBuildFile section */
 
@@ -209,6 +210,8 @@
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		CF5B59901AA3D81D003B45EE /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arrow.h; path = Source/Arrow.h; sourceTree = "<group>"; };
 		CF5B59911AA3D81D003B45EE /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arrow.m; path = Source/Arrow.m; sourceTree = "<group>"; };
+		CF974AB21AD481240091B6A3 /* TimeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeCircle.h; path = Source/TimeCircle.h; sourceTree = "<group>"; };
+		CF974AB31AD481240091B6A3 /* TimeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeCircle.m; path = Source/TimeCircle.m; sourceTree = "<group>"; };
 		CFB353BD1AA3A757006FDE0F /* WhiteCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiteCompass.h; path = Source/WhiteCompass.h; sourceTree = "<group>"; };
 		CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiteCompass.m; path = Source/WhiteCompass.m; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
@@ -436,6 +439,8 @@
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				B7378992180767190076A88C /* MainScene.h */,
+				CF974AB21AD481240091B6A3 /* TimeCircle.h */,
+				CF974AB31AD481240091B6A3 /* TimeCircle.m */,
 				CF5B59901AA3D81D003B45EE /* Arrow.h */,
 				CF5B59911AA3D81D003B45EE /* Arrow.m */,
 				CFB353BD1AA3A757006FDE0F /* WhiteCompass.h */,
@@ -813,6 +818,7 @@
 			files = (
 				CFB353BF1AA3A757006FDE0F /* WhiteCompass.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				CF974AB41AD481240091B6A3 /* TimeCircle.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
 				CF5B59921AA3D81D003B45EE /* Arrow.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
