@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>22</integer>
+	<integer>29</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -158,7 +158,7 @@
 			</dict>
 			<dict>
 				<key>UUID</key>
-				<integer>19</integer>
+				<integer>28</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -166,7 +166,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>background</string>
+				<string>treasuremap3</string>
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
@@ -188,11 +188,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
+							<integer>2</integer>
+							<integer>2</integer>
 						</array>
 					</dict>
 					<dict>
@@ -202,8 +202,8 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
-							<real>0.0</real>
+							<real>0.5</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -213,10 +213,10 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1.4226253032684326</real>
-							<real>1.0672281980514526</real>
+							<real>1</real>
+							<real>0.80000001192092896</real>
 							<false/>
-							<integer>0</integer>
+							<integer>1</integer>
 						</array>
 					</dict>
 					<dict>
@@ -227,7 +227,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string>resource/background.png</string>
+							<string>resource/treasuremap3.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -317,8 +317,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.33000001311302185</real>
-									<real>0.33000001311302185</real>
+									<real>1.2000000476837158</real>
+									<real>1.2000000476837158</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -332,6 +332,8 @@
 								<string>WhiteCompass.ccb</string>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -480,7 +482,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.30000001192092896</real>
+							<real>0.5</real>
 							<real>0.5</real>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -505,8 +507,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>0.5</real>
-							<real>0.5</real>
+							<real>0.11999999731779099</real>
+							<real>0.11999999731779099</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -588,7 +590,7 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.30000001192092896</real>
+							<real>0.5</real>
 							<real>0.5</real>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -1413,8 +1415,8 @@ retry</string>
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>154</real>
-							<real>247.49996948242188</real>
+							<real>70.750740051269531</real>
+							<real>239.96873474121094</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>

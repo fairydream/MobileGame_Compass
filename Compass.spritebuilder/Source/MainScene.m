@@ -14,6 +14,8 @@
     int _score;
     CCLabelTTF * _scoreLabel;
     CCAnimationManager* animationManager;
+    CCTimer *_timer;
+    float _time_limit;
 }
 
 - (void) didLoadFromCCB
@@ -44,10 +46,12 @@
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerUp];
     [[[CCDirector sharedDirector] view] addGestureRecognizer: swipeGestureRecognizerDown];
     
-    animationManager = self.animationManager;
-    
     _score = 0;
-}
+    _time_limit = 2.0f;
+    animationManager = self.animationManager;
+    _timer = [[CCTimer alloc] init];
+    [self schedule:@selector(timeOut) interval:_time_limit];
+ }
 
 - (int) randomRotation
 {
@@ -85,6 +89,12 @@
     
 }
 
+-(void)timeOut
+{
+    NSLog(@"Time out! ");
+    _retryButton.visible = true;
+    [self unschedule:@selector(timeOut)];
+}
 
 
 - (void) checkSwipe : (UISwipeGestureRecognizer*) recognizer
@@ -98,6 +108,9 @@
         NSLog(@"correct! ");
         NSLog(@"Your swipe is : %d", (int) recognizer.direction);
         NSLog(@"Correct direction is: %d", (int)correctDirection);
+        [self unschedule:@selector(timeOut)];
+        [self schedule:@selector(timeOut) interval:_time_limit];
+        [animationManager runAnimationsForSequenceNamed:@"TimeCircleTimeline"];
     }
     else
     {
@@ -105,9 +118,9 @@
         NSLog(@"Your swipe is : %d", (int) recognizer.direction);
         NSLog(@"Correct direction is: %d", (int)correctDirection);
         _retryButton.visible = true;
+        [self unschedule:@selector(timeOut)];
     }
     [self randomSet];
-    [animationManager runAnimationsForSequenceNamed:@"TimeCircleTimeline"];
 }
 
 
@@ -149,7 +162,7 @@
     
     // the animation manager of each node is stored in the 'animationManager' property
     [animationManager runAnimationsForSequenceNamed:@"TimeCircleTimeline"];
-    
+    [self schedule:@selector(timeOut) interval:_time_limit];
 }
 
 
