@@ -72,6 +72,11 @@ tsundere slime and megane slime
 	* [Epic Runes](http://facebook.com/epicrunes)
 	* http://seesaawiki.jp/w/kusaikatana/
 	* http://etolier.webcrow.jp/material/xpchara.html
+	* http://opengameart.org/content/2d-speech-bubbles
+	* Erik Herschend http://www.erikherschend.com/
+	* GameArtForge http://opengameart.org/users/gameartforge
+	* OpenStockProject http://www.openstockproject.com/
+	* Kenny http://kenney.nl/
 	
 * Audio Assets
 	* TAM Music Factory
@@ -79,6 +84,7 @@ tsundere slime and megane slime
 ## Features List
 * Achievements e.g. go to movies 10 times -> 100 times
 * Episode changes based on behavior,  clear different blocks means different behavior, bad ending may occur
+* Scenarios and Days - Day end when life ends
 
 
 ## MVP Milestones
@@ -101,21 +107,45 @@ tsundere slime and megane slime
 	
 
 ### Week 3 (3/31 - 4/6/2014)
-* Add episode 1 to the core game
+* Planned
 	* Implement scoring
 	* Score multipliers
 	* Add in the slime graphic
+	* special object to restore life
+* Completed
+	* Scoring and multiplier implemented (no popup labels)
+	* Slime spritesheet added to game project
+	* Heal and scoreup/scoredown also implemented
+	* Replaced icons	
 
 ### Week 4 (4/7 - 4/13/2014) - _finishing core gameplay_
-* add score (and multiplier) animatinos
-* add expression change as response to movement
+* Planned
+	* add score (and multiplier) popup animation
+	* Add slime animation (eternal loop)
+	* add expression change as response to score change
+	* Make poster + pitch
+* Completed
+	* Slime animation added
+	* Make poster/pitch
 
 ### Week 5 (4/14 - 4/20/2014)
-* Fix images and finalize them 
-* Add "advanced orb matching tutorial"
+* Planned
+	* Fix collision detection bug
+	* Add score (and multiplier) popup animation
+	* Add expression change as response to score change
+	* Add affection bar/time bar
+* Completed
+	* Fixed main game and bugs
+	* Added expression change and score/multiplier popup
 
 ### Week 6 (4/21 - 4/27/2014) - _finishing the polish_
-* Polish game
+* Fix affection/time bars
+* Add "advanced orb matching tutorial"
+* Credits/Achievements screen* 
+* Make Plot unlock screen (2nd loop)
+* Fix polish animations
 
 ### Week 7 (4/28 - 5/2/2014) - _finishing the polish_
-*  Write game description, make poster
+*  Finish up on whatever is left to do
+*  Get playtesting feedback and change stuff
+*  Prepare pitch
