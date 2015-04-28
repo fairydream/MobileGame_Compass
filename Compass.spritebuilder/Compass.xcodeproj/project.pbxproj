@@ -95,8 +95,21 @@
 		BC5399DB1A44DCC90063F482 /* JavaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D61A44DCC90063F482 /* JavaFoundation.framework */; };
 		BC5399DC1A44DCC90063F482 /* JavaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC5399D71A44DCC90063F482 /* JavaKit.framework */; };
 		CF5B59921AA3D81D003B45EE /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5B59911AA3D81D003B45EE /* Arrow.m */; };
+		CF85640F1AE6F298007133D8 /* OutsideCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CF85640E1AE6F298007133D8 /* OutsideCompass.m */; };
+		CF8564131AE6F2AE007133D8 /* InsideCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8564121AE6F2AE007133D8 /* InsideCompass.m */; };
+		CF8564161AE6F310007133D8 /* WhiteCompassSmall.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8564151AE6F310007133D8 /* WhiteCompassSmall.m */; };
+		CF8564191AE6F325007133D8 /* BlackCompassSmall.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8564181AE6F325007133D8 /* BlackCompassSmall.m */; };
 		CF974AB41AD481240091B6A3 /* TimeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF974AB31AD481240091B6A3 /* TimeCircle.m */; };
 		CFB353BF1AA3A757006FDE0F /* WhiteCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */; };
+		CFBEC1271ADDCF5C0062B95A /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC1261ADDCF5C0062B95A /* GameOver.m */; };
+		CFD236FC1AE196AF00061712 /* BlackCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD236FB1AE196AF00061712 /* BlackCompass.m */; };
+		CFFCF1981AEFE73500DE9EDE /* TimeOut.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCF1971AEFE73500DE9EDE /* TimeOut.m */; };
+		CFFCF19F1AF0186000DE9EDE /* CorrectDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCF19E1AF0186000DE9EDE /* CorrectDirection.m */; };
+		CFFCF1A21AF01CA700DE9EDE /* WrongSwipe.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFCF1A11AF01CA700DE9EDE /* WrongSwipe.m */; };
+		CFFCF1A61AF037FC00DE9EDE /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFFCF1A31AF037FC00DE9EDE /* 1.wav */; };
+		CFFCF1A71AF037FC00DE9EDE /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFFCF1A41AF037FC00DE9EDE /* 2.wav */; };
+		CFFCF1A81AF037FC00DE9EDE /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFFCF1A51AF037FC00DE9EDE /* 3.wav */; };
+		CFFCF1AA1AF039AA00DE9EDE /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = CFFCF1A91AF039AA00DE9EDE /* lose.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,10 +223,32 @@
 		BC5399D71A44DCC90063F482 /* JavaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaKit.framework; path = "../../../../Library/Application Support/Developer/Shared/Xcode/Platforms/Android.platform/Developer/SDKs/SBAndroid.sdk/System/Library/Frameworks/JavaKit.framework"; sourceTree = "<group>"; };
 		CF5B59901AA3D81D003B45EE /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Arrow.h; path = Source/Arrow.h; sourceTree = "<group>"; };
 		CF5B59911AA3D81D003B45EE /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Arrow.m; path = Source/Arrow.m; sourceTree = "<group>"; };
+		CF85640D1AE6F298007133D8 /* OutsideCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OutsideCompass.h; path = Source/OutsideCompass.h; sourceTree = "<group>"; };
+		CF85640E1AE6F298007133D8 /* OutsideCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OutsideCompass.m; path = Source/OutsideCompass.m; sourceTree = "<group>"; };
+		CF8564111AE6F2AE007133D8 /* InsideCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InsideCompass.h; path = Source/InsideCompass.h; sourceTree = "<group>"; };
+		CF8564121AE6F2AE007133D8 /* InsideCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InsideCompass.m; path = Source/InsideCompass.m; sourceTree = "<group>"; };
+		CF8564141AE6F310007133D8 /* WhiteCompassSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiteCompassSmall.h; path = Source/WhiteCompassSmall.h; sourceTree = "<group>"; };
+		CF8564151AE6F310007133D8 /* WhiteCompassSmall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiteCompassSmall.m; path = Source/WhiteCompassSmall.m; sourceTree = "<group>"; };
+		CF8564171AE6F325007133D8 /* BlackCompassSmall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackCompassSmall.h; path = Source/BlackCompassSmall.h; sourceTree = "<group>"; };
+		CF8564181AE6F325007133D8 /* BlackCompassSmall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlackCompassSmall.m; path = Source/BlackCompassSmall.m; sourceTree = "<group>"; };
 		CF974AB21AD481240091B6A3 /* TimeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeCircle.h; path = Source/TimeCircle.h; sourceTree = "<group>"; };
 		CF974AB31AD481240091B6A3 /* TimeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeCircle.m; path = Source/TimeCircle.m; sourceTree = "<group>"; };
 		CFB353BD1AA3A757006FDE0F /* WhiteCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiteCompass.h; path = Source/WhiteCompass.h; sourceTree = "<group>"; };
 		CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiteCompass.m; path = Source/WhiteCompass.m; sourceTree = "<group>"; };
+		CFBEC1251ADDCF5C0062B95A /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOver.h; path = Source/GameOver.h; sourceTree = "<group>"; };
+		CFBEC1261ADDCF5C0062B95A /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOver.m; path = Source/GameOver.m; sourceTree = "<group>"; };
+		CFD236FA1AE196AF00061712 /* BlackCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BlackCompass.h; path = Source/BlackCompass.h; sourceTree = "<group>"; };
+		CFD236FB1AE196AF00061712 /* BlackCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlackCompass.m; path = Source/BlackCompass.m; sourceTree = "<group>"; };
+		CFFCF1961AEFE73500DE9EDE /* TimeOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeOut.h; path = Source/TimeOut.h; sourceTree = "<group>"; };
+		CFFCF1971AEFE73500DE9EDE /* TimeOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeOut.m; path = Source/TimeOut.m; sourceTree = "<group>"; };
+		CFFCF19D1AF0186000DE9EDE /* CorrectDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorrectDirection.h; path = Source/CorrectDirection.h; sourceTree = "<group>"; };
+		CFFCF19E1AF0186000DE9EDE /* CorrectDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CorrectDirection.m; path = Source/CorrectDirection.m; sourceTree = "<group>"; };
+		CFFCF1A01AF01CA700DE9EDE /* WrongSwipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WrongSwipe.h; path = Source/WrongSwipe.h; sourceTree = "<group>"; };
+		CFFCF1A11AF01CA700DE9EDE /* WrongSwipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WrongSwipe.m; path = Source/WrongSwipe.m; sourceTree = "<group>"; };
+		CFFCF1A31AF037FC00DE9EDE /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		CFFCF1A41AF037FC00DE9EDE /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		CFFCF1A51AF037FC00DE9EDE /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		CFFCF1A91AF039AA00DE9EDE /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
 		D352B48019EC608A00829775 /* MetalShaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MetalShaders; path = Source/MetalShaders; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -439,13 +474,31 @@
 			children = (
 				7A40362019DDEF0D007B6E8F /* Platforms */,
 				B7378992180767190076A88C /* MainScene.h */,
+				CFFCF19D1AF0186000DE9EDE /* CorrectDirection.h */,
+				CFFCF19E1AF0186000DE9EDE /* CorrectDirection.m */,
 				CF974AB21AD481240091B6A3 /* TimeCircle.h */,
 				CF974AB31AD481240091B6A3 /* TimeCircle.m */,
 				CF5B59901AA3D81D003B45EE /* Arrow.h */,
 				CF5B59911AA3D81D003B45EE /* Arrow.m */,
 				CFB353BD1AA3A757006FDE0F /* WhiteCompass.h */,
+				CF8564141AE6F310007133D8 /* WhiteCompassSmall.h */,
+				CF8564151AE6F310007133D8 /* WhiteCompassSmall.m */,
+				CF8564171AE6F325007133D8 /* BlackCompassSmall.h */,
+				CF8564181AE6F325007133D8 /* BlackCompassSmall.m */,
+				CF85640D1AE6F298007133D8 /* OutsideCompass.h */,
+				CF8564111AE6F2AE007133D8 /* InsideCompass.h */,
+				CF8564121AE6F2AE007133D8 /* InsideCompass.m */,
+				CF85640E1AE6F298007133D8 /* OutsideCompass.m */,
 				CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */,
 				B7378993180767190076A88C /* MainScene.m */,
+				CFFCF1A01AF01CA700DE9EDE /* WrongSwipe.h */,
+				CFFCF1A11AF01CA700DE9EDE /* WrongSwipe.m */,
+				CFFCF1961AEFE73500DE9EDE /* TimeOut.h */,
+				CFFCF1971AEFE73500DE9EDE /* TimeOut.m */,
+				CFD236FA1AE196AF00061712 /* BlackCompass.h */,
+				CFD236FB1AE196AF00061712 /* BlackCompass.m */,
+				CFBEC1251ADDCF5C0062B95A /* GameOver.h */,
+				CFBEC1261ADDCF5C0062B95A /* GameOver.m */,
 				D352B48019EC608A00829775 /* MetalShaders */,
 			);
 			name = Source;
@@ -525,6 +578,10 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CFFCF1A31AF037FC00DE9EDE /* 1.wav */,
+				CFFCF1A91AF039AA00DE9EDE /* lose.wav */,
+				CFFCF1A41AF037FC00DE9EDE /* 2.wav */,
+				CFFCF1A51AF037FC00DE9EDE /* 3.wav */,
 				7A40366119DDF8C2007B6E8F /* Platforms */,
 				5B12100D197483EE004C1E1D /* res */,
 				B73789911807667A0076A88C /* Icons */,
@@ -729,11 +786,15 @@
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
+				CFFCF1A71AF037FC00DE9EDE /* 2.wav in Resources */,
+				CFFCF1A61AF037FC00DE9EDE /* 1.wav in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
+				CFFCF1A81AF037FC00DE9EDE /* 3.wav in Resources */,
 				B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */,
 				B71F5916188484E7003F4D28 /* iPhone-old@2x.png in Resources */,
 				B737893B180761570076A88C /* Published-iOS in Resources */,
+				CFFCF1AA1AF039AA00DE9EDE /* lose.wav in Resources */,
 				B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */,
 				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
@@ -818,9 +879,18 @@
 			files = (
 				CFB353BF1AA3A757006FDE0F /* WhiteCompass.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				CF8564191AE6F325007133D8 /* BlackCompassSmall.m in Sources */,
 				CF974AB41AD481240091B6A3 /* TimeCircle.m in Sources */,
+				CFFCF1A21AF01CA700DE9EDE /* WrongSwipe.m in Sources */,
+				CFFCF19F1AF0186000DE9EDE /* CorrectDirection.m in Sources */,
+				CFBEC1271ADDCF5C0062B95A /* GameOver.m in Sources */,
+				CFD236FC1AE196AF00061712 /* BlackCompass.m in Sources */,
 				7A046D8C19E8A20E004C4763 /* MainScene.m in Sources */,
+				CFFCF1981AEFE73500DE9EDE /* TimeOut.m in Sources */,
 				CF5B59921AA3D81D003B45EE /* Arrow.m in Sources */,
+				CF85640F1AE6F298007133D8 /* OutsideCompass.m in Sources */,
+				CF8564161AE6F310007133D8 /* WhiteCompassSmall.m in Sources */,
+				CF8564131AE6F2AE007133D8 /* InsideCompass.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

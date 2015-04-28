@@ -162,10 +162,38 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
-		<key>resource/treasuremap3.png</key>
+		<key>resource/black_compass.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/black_compass_small.png</key>
 		<dict>
 			<key>isDirty</key>
 			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/treasuremap1.png</key>
+		<dict/>
+		<key>resource/treasuremap3.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/white_compass.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/white_compass_small.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>versionStr</key>

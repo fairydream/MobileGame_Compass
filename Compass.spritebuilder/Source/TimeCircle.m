@@ -10,10 +10,5 @@
 
 @implementation TimeCircle
 
-- (void) didLoadFromCCB
-{
-    
-}
-
 
 @end

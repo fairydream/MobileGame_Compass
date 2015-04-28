@@ -7,7 +7,8 @@
 //
 
 #import "CCSprite.h"
+#import "OutsideCompass.h"
 
-@interface WhiteCompass : CCSprite
+@interface WhiteCompass : OutsideCompass
 
 @end
