@@ -100,6 +100,11 @@
 		CF8564161AE6F310007133D8 /* WhiteCompassSmall.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8564151AE6F310007133D8 /* WhiteCompassSmall.m */; };
 		CF8564191AE6F325007133D8 /* BlackCompassSmall.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8564181AE6F325007133D8 /* BlackCompassSmall.m */; };
 		CF974AB41AD481240091B6A3 /* TimeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CF974AB31AD481240091B6A3 /* TimeCircle.m */; };
+		CFA08C271AF42FD800B3CB0D /* GamePlay.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA08C261AF42FD800B3CB0D /* GamePlay.m */; };
+		CFA08C381AF4F78D00B3CB0D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA08C351AF4F78C00B3CB0D /* FBSDKCoreKit.framework */; };
+		CFA08C391AF4F78D00B3CB0D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA08C361AF4F78D00B3CB0D /* FBSDKLoginKit.framework */; };
+		CFA08C3A1AF4F78D00B3CB0D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA08C371AF4F78D00B3CB0D /* FBSDKShareKit.framework */; };
+		CFA08C431AF50E5E00B3CB0D /* TutorialText.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA08C421AF50E5E00B3CB0D /* TutorialText.m */; };
 		CFB353BF1AA3A757006FDE0F /* WhiteCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */; };
 		CFBEC1271ADDCF5C0062B95A /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = CFBEC1261ADDCF5C0062B95A /* GameOver.m */; };
 		CFD236FC1AE196AF00061712 /* BlackCompass.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD236FB1AE196AF00061712 /* BlackCompass.m */; };
@@ -233,6 +238,13 @@
 		CF8564181AE6F325007133D8 /* BlackCompassSmall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BlackCompassSmall.m; path = Source/BlackCompassSmall.m; sourceTree = "<group>"; };
 		CF974AB21AD481240091B6A3 /* TimeCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeCircle.h; path = Source/TimeCircle.h; sourceTree = "<group>"; };
 		CF974AB31AD481240091B6A3 /* TimeCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeCircle.m; path = Source/TimeCircle.m; sourceTree = "<group>"; };
+		CFA08C251AF42FD800B3CB0D /* GamePlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GamePlay.h; path = Source/GamePlay.h; sourceTree = "<group>"; };
+		CFA08C261AF42FD800B3CB0D /* GamePlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GamePlay.m; path = Source/GamePlay.m; sourceTree = "<group>"; };
+		CFA08C351AF4F78C00B3CB0D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CFA08C361AF4F78D00B3CB0D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CFA08C371AF4F78D00B3CB0D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CFA08C411AF50E5E00B3CB0D /* TutorialText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TutorialText.h; path = Source/TutorialText.h; sourceTree = "<group>"; };
+		CFA08C421AF50E5E00B3CB0D /* TutorialText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TutorialText.m; path = Source/TutorialText.m; sourceTree = "<group>"; };
 		CFB353BD1AA3A757006FDE0F /* WhiteCompass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WhiteCompass.h; path = Source/WhiteCompass.h; sourceTree = "<group>"; };
 		CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WhiteCompass.m; path = Source/WhiteCompass.m; sourceTree = "<group>"; };
 		CFBEC1251ADDCF5C0062B95A /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOver.h; path = Source/GameOver.h; sourceTree = "<group>"; };
@@ -294,13 +306,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A97911819E631CD001FFC4D /* libcocos2d.a in Frameworks */,
+				CFA08C381AF4F78D00B3CB0D /* FBSDKCoreKit.framework in Frameworks */,
 				8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */,
 				B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */,
 				B77F1B3417B978D7009739AE /* OpenGLES.framework in Frameworks */,
 				B77F1B3617B978D7009739AE /* OpenAL.framework in Frameworks */,
 				B77F1B3817B978D7009739AE /* AudioToolbox.framework in Frameworks */,
+				CFA08C391AF4F78D00B3CB0D /* FBSDKLoginKit.framework in Frameworks */,
 				B77F1B3A17B978D7009739AE /* AVFoundation.framework in Frameworks */,
 				B77F1B3C17B978D7009739AE /* UIKit.framework in Frameworks */,
+				CFA08C3A1AF4F78D00B3CB0D /* FBSDKShareKit.framework in Frameworks */,
 				B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */,
 				B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */,
 				B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */,
@@ -477,6 +492,8 @@
 				CFFCF19D1AF0186000DE9EDE /* CorrectDirection.h */,
 				CFFCF19E1AF0186000DE9EDE /* CorrectDirection.m */,
 				CF974AB21AD481240091B6A3 /* TimeCircle.h */,
+				CFA08C411AF50E5E00B3CB0D /* TutorialText.h */,
+				CFA08C421AF50E5E00B3CB0D /* TutorialText.m */,
 				CF974AB31AD481240091B6A3 /* TimeCircle.m */,
 				CF5B59901AA3D81D003B45EE /* Arrow.h */,
 				CF5B59911AA3D81D003B45EE /* Arrow.m */,
@@ -490,6 +507,8 @@
 				CF8564121AE6F2AE007133D8 /* InsideCompass.m */,
 				CF85640E1AE6F298007133D8 /* OutsideCompass.m */,
 				CFB353BE1AA3A757006FDE0F /* WhiteCompass.m */,
+				CFA08C251AF42FD800B3CB0D /* GamePlay.h */,
+				CFA08C261AF42FD800B3CB0D /* GamePlay.m */,
 				B7378993180767190076A88C /* MainScene.m */,
 				CFFCF1A01AF01CA700DE9EDE /* WrongSwipe.h */,
 				CFFCF1A11AF01CA700DE9EDE /* WrongSwipe.m */,
@@ -552,6 +571,9 @@
 			children = (
 				BC5399D31A44DCC90063F482 /* AndroidKit.framework */,
 				BC5399D41A44DCC90063F482 /* CoreJava.framework */,
+				CFA08C351AF4F78C00B3CB0D /* FBSDKCoreKit.framework */,
+				CFA08C361AF4F78D00B3CB0D /* FBSDKLoginKit.framework */,
+				CFA08C371AF4F78D00B3CB0D /* FBSDKShareKit.framework */,
 				BC5399D51A44DCC90063F482 /* GLActivityKit.framework */,
 				BC5399D61A44DCC90063F482 /* JavaFoundation.framework */,
 				BC5399D71A44DCC90063F482 /* JavaKit.framework */,
@@ -882,6 +904,7 @@
 				CF8564191AE6F325007133D8 /* BlackCompassSmall.m in Sources */,
 				CF974AB41AD481240091B6A3 /* TimeCircle.m in Sources */,
 				CFFCF1A21AF01CA700DE9EDE /* WrongSwipe.m in Sources */,
+				CFA08C271AF42FD800B3CB0D /* GamePlay.m in Sources */,
 				CFFCF19F1AF0186000DE9EDE /* CorrectDirection.m in Sources */,
 				CFBEC1271ADDCF5C0062B95A /* GameOver.m in Sources */,
 				CFD236FC1AE196AF00061712 /* BlackCompass.m in Sources */,
@@ -891,6 +914,7 @@
 				CF85640F1AE6F298007133D8 /* OutsideCompass.m in Sources */,
 				CF8564161AE6F310007133D8 /* WhiteCompassSmall.m in Sources */,
 				CF8564131AE6F2AE007133D8 /* InsideCompass.m in Sources */,
+				CFA08C431AF50E5E00B3CB0D /* TutorialText.m in Sources */,
 				5B121038197487F2004C1E1D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1177,6 +1201,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/fairydream/Documents/FacebookSDK,
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
@@ -1212,6 +1241,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/fairydream/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Source/Prefix.pch;
 				HEADER_SEARCH_PATHS = (

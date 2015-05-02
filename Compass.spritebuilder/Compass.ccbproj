@@ -162,6 +162,34 @@
 			<key>tabletScale</key>
 			<integer>1</integer>
 		</dict>
+		<key>resource/2.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/32143135-Vintage-treasure-map-in-open-book-with-compass-and-old-ruler-Stock-Pho.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/Clipart-Parchment-Treasure-Map-With-Curled-Edges-Royalty-Free-Vector-Illustration-10241101840.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/bdc56442e0cae39454aefc9e2e_560.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 		<key>resource/black_compass.png</key>
 		<dict>
 			<key>scaleFrom</key>
@@ -174,8 +202,27 @@
 			<key>scaleFrom</key>
 			<integer>1</integer>
 		</dict>
+		<key>resource/old-banners1.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>resource/stock-vector-nautical-vector-illustration-old-geographical-map-with-wind-rose-ships-whale-sword-fish-island-136498331.png</key>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 		<key>resource/treasuremap1.png</key>
-		<dict/>
+		<dict>
+			<key>isDirty</key>
+			<true/>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
 		<key>resource/treasuremap3.png</key>
 		<dict>
 			<key>scaleFrom</key>
