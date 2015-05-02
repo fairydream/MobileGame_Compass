@@ -19,11 +19,13 @@
 {
     CCLabelTTF * _scoreLabel;
     CCLabelTTF * _highScoreLabel;
+    int _score;
     int _highScore;
 }
 
 - (void) setScore:(int)score
 {
+    _score = score;
     _scoreLabel.string = [NSString stringWithFormat:@"%d", score];
 }
 
@@ -57,8 +59,10 @@
                                  withContent:content
                                     delegate:nil];*/
     FBSDKShareLinkContent *content = [[FBSDKShareLinkContent alloc] init];
-    content.contentDescription = @"HELELELEL";
-    content.contentTitle = @"sss";
+    content.contentDescription = [NSString stringWithFormat:@"I got %d points!", _score];
+    content.contentTitle = @"Find Your Way!";
+    content.imageURL = [NSURL URLWithString: @"http://images.clipartpanda.com/compass-clip-art-compassblack.png"];
+    content.contentURL = [NSURL URLWithString:@"https://www.facebook.com/profile.php?id=100004566797745"];
     [FBSDKShareDialog showFromViewController:self
                                  withContent:content
                                     delegate:nil];

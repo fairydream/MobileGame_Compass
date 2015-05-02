@@ -91,7 +91,7 @@
     _score = 0;
    // if(_highScore <0 ) _highScore= 0;
     _highScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"HighScore"];
-    
+    _highScoreLabel.string = [NSString stringWithFormat:@"%d", _highScore];
     _time_limit = 2.0f;
     animationManager = self.animationManager;
     _time = 0;
@@ -120,7 +120,8 @@
 - (void) randomArrow
 {
     [_arrow removeFromParentAndCleanup:true];
-    _arrowType = arc4random() % 2 + 1;
+   // _arrowType = arc4random() % 2 + 1;
+    _arrowType = 2;
     _arrow = [[Arrow alloc] initArrow : _arrowType];
     _arrow.anchorPoint = ccp(0.5, 0.5);
     _arrow.position = ccp(_whiteCompass.contentSize.width/2, _whiteCompass.contentSize.height/2);
@@ -253,6 +254,7 @@
         }
         else if(_score <= 10)
         {
+            [_tutorialText removeFromParent];
             [animationManager runAnimationsForSequenceNamed:@"TimeCircleTimeline"];
         }
         else if(_score <= 15)
